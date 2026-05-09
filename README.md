@@ -19,7 +19,7 @@ fish/        → Fish shell config
 
 ```bash
 # Clone and symlink (adjust paths as needed)
-git clone <repo-url> ~/dotfiles
+git clone https://github.com/vishruthb/dotfiles.git ~/dotfiles
 
 # Shell
 ln -sf ~/dotfiles/shell/zshrc ~/.zshrc
