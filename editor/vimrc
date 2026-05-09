@@ -1,0 +1,41 @@
+" Enable line numbers
+set number
+
+" Color scheme
+syntax on
+set background=dark
+colorscheme blue
+
+" Enable syntax highlighting
+syntax on
+
+" Set tabs to 4 spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" Highlight current line
+set cursorline
+
+" Enable mouse support
+set mouse=a
+
+" Enable better searching
+set hlsearch
+set incsearch
+
+" Auto-indent
+set autoindent
+set smartindent
+
+" Clipboard
+set clipboard=unnamedplus
+
+" Enable line wrapping
+set wrap
+
+" Show matching brackets
+set showmatch
+
+" Better backspace behavior
+set backspace=indent,eol,start

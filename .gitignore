@@ -1,0 +1,23 @@
+# Private SSH keys - NEVER commit these
+*.pem
+id_rsa
+id_ed25519
+id_ed25519_instarails
+
+# History files
+*_history
+.zsh_history
+.bash_history
+
+# Swap files
+*.swp
+*.swo
+
+# macOS junk
+.DS_Store
+
+# Compiled zsh
+*.zwc
+
+# Large/runtime files
+*.mp4

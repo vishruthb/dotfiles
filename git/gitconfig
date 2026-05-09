@@ -1,0 +1,18 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Vishruth Bharath
+	email = vishruthbharath@gmail.com
+[core]
+	autocrlf = input
+[http]
+	postBuffer = 524288000
+[credential]
+	helper = osxkeychain
+[lfs "customtransfer.xet"]
+	path = git-xet
+	args = transfer
+	concurrent = true
